@@ -1,0 +1,40 @@
+.app-header {
+    display: flex;
+    align-items: center;
+    /*  */
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+}
+
+.app-header-home {
+    background-color: #e83f32;
+}
+
+.app-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    height: 70px;
+    padding-top: 5px;
+}
+
+.app-header .container .logo {
+    width: 200px;
+}
+
+.app-header .container .fa-th {
+    transition: .3s;
+    transform: rotate(180deg);
+}
+
+.app-header .container .fa-th:hover {
+    transition: .6s;
+    transform: rotate(360deg);
+}
+
+.app-header .container .logo img {
+    width: 100%;
+    height: 50px;
+    object-fit: cover;
+}

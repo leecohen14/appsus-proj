@@ -1,0 +1,87 @@
+.note-add {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.note-add .modes-btns-container {
+    display: flex;
+    align-items: center;
+    align-self: start;
+    gap: 10px;
+    width: 40%;
+}
+
+.note-add .modes-btns-container>button {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border-radius: 50%;
+    transition: all .2s;
+}
+
+.note-add .modes-btns-container>button:hover {
+    background-color: #0092ff;
+}
+
+.note-add .modes-btns-container>button:hover i {
+    color: white;
+}
+
+.note-add form {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    box-shadow: 0 3px 5px rgb(0 0 0 / 20%);
+    border: none;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: rgb(255, 255, 136);
+}
+
+.note-add form input {
+    background-color: transparent;
+    border: none;
+    font-size: 1.2rem;
+    padding: 5px;
+}
+
+.note-add form input[type=file] {
+    font-size: .8rem;
+}
+
+.note-add form input {
+    width: 100%;
+    outline: none;
+}
+
+.note-add form .save-btn {
+    align-self: flex-start;
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 50%;
+    transition: all .2s;
+}
+
+.note-add form .save-btn:hover {
+    background-color: #0092ff;
+    align-self: flex-start;
+    margin-top: 10px;
+}
+
+.note-add form .save-btn:hover i {
+    transition: all .2s;
+    color: white;
+}
+
+.note-video>iframe {
+    width: 300px;
+    height: 200px;
+}
+
+.note-img>img {
+    width: 300px;
+}

@@ -1,0 +1,35 @@
+.user-msg {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.user-msg>button {
+    position: absolute;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: none;
+    top: -50px;
+    right: -10px;
+}
+
+.user-msg>span {
+    border: 2px solid black;
+    border-radius: 15px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 40px;
+}
+
+.msg-red {
+    border-color: rgba(206, 20, 20, 0.911) !important;
+    background-color: rgb(207, 102, 54) !important;
+}
+
+.msg-green {
+    border-color: rgb(11, 155, 11) !important;
+    background-color: lightgreen !important;
+}

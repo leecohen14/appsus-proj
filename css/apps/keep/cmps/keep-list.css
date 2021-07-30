@@ -1,0 +1,25 @@
+.note-list-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.note-list-container h3 {
+    align-self: start;
+    margin: 5px;
+}
+
+.note-list {
+    column-count: 3;
+    column-gap: 1.5rem;
+    width: 100%;
+    margin: 0 auto 2em;
+    margin: 0 20px 20px 20px;
+}
+
+.note-list .note-preview .done {
+    text-decoration: line-through;
+    text-decoration-thickness: 3px;
+}

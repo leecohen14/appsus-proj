@@ -1,0 +1,38 @@
+.mail-details {
+    margin: 20px 5%;
+    position: relative;
+    font-family: roboto;
+    padding: 20px;
+    box-shadow: 0 3px 5px rgb(0 0 0 / 20%);
+}
+
+.mail-details h4 {
+    margin-bottom: 5px;
+}
+
+.mail-details .details-to {
+    font-size: .875em;
+}
+
+.mail-details .details-buttons-area {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.mail-details .details-buttons-area>button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    transition: all .4s;
+}
+
+.mail-details .details-buttons-area>button:hover {
+    background-color: #0093ff;
+}
+
+.mail-details .details-buttons-area>button i {
+    text-align: center;
+    font-size: 1rem;
+}

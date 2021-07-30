@@ -1,0 +1,49 @@
+.clickable {
+    cursor: pointer;
+    filter: contrast(130%);
+}
+
+button,
+i {
+    cursor: pointer;
+}
+
+.bold * :not(i) {
+    font-family: roboto-bold;
+    font-size: 1.1rem;
+    color: black;
+}
+
+.border {
+    border: 2px solid red;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.inline {
+    display: inline;
+}
+
+.router-link {
+    text-decoration: none;
+}
+
+.outer-wrapper {
+    overflow: hidden;
+    height: 1.2em;
+    line-height: 1.2em;
+    border: 1px dotted black;
+    margin: 1em;
+}
+
+.outer-wrapper::before {
+    content: '';
+    display: inline-block;
+}
+
+.inner-wrapper {
+    display: inline-block;
+    white-space: nowrap;
+}

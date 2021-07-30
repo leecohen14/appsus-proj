@@ -1,0 +1,101 @@
+.mail-preview {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 5px;
+    margin: 0 0 0 2px;
+    border-bottom: 1px solid rgba(199, 199, 199, 0.678);
+    gap: 20px;
+    transition: all .4s;
+}
+
+.mail-preview:hover {
+    cursor: pointer;
+    box-shadow: 0 0 6px 1px #b8b8b8f0;
+    background-color: rgb(218, 218, 218);
+}
+
+.mail-preview .small-prev-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    max-width: 95%;
+    height: 40px;
+}
+
+.mail-preview .starred-mail-btn {
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px;
+}
+
+.mail-preview .starred-mail-btn.starred {
+    color: #f8cb62;
+    -webkit-text-stroke: 2px black;
+}
+
+.mail-preview .small-prev-container .mail-info {
+    text-align: left;
+    display: flex;
+    gap: 15px;
+    min-width: 300px;
+}
+
+.mail-preview .small-prev-container .mail-info>:nth-child(1) {
+    width: 130px;
+}
+
+.mail-preview .small-prev-container .mail-info>:nth-child(2) {
+    width: 250px;
+}
+
+.mail-preview .body-to-show {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    max-width: 48%;
+    height: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-right: 20px;
+}
+
+.mail-preview .body-to-show.hovered {
+    max-width: 45%;
+}
+
+.mail-preview .small-prev-container>:last-child {
+    display: flex;
+    justify-content: space-between;
+    justify-self: end;
+    color: gray;
+}
+
+.mail-preview .small-prev-container>:last-child>* {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mail-preview .small-prev-container button {
+    border: none;
+    font-size: 1.1rem !important;
+    background-color: transparent;
+}
+
+.mail-preview .preview-btns-container>button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: all .4s;
+}
+
+.mail-preview .preview-btns-container>button:hover {
+    background-color: #0093ff;
+}
+
+.mail-preview .preview-btns-container>*>i {
+    text-align: center;
+    font-size: 1.1rem;
+}

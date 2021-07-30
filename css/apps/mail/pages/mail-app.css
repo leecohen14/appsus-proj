@@ -1,0 +1,83 @@
+.mail-app {
+    display: flex;
+    margin-top: 10px;
+    width: 95%;
+    font-family: roboto;
+}
+
+.mail-app * {
+    font-size: .9rem !important;
+}
+
+.mail-side-bar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    max-width: 150px;
+    margin-top: 10px;
+}
+
+.mail-app i {
+    font-size: 1.3rem;
+}
+
+.mail-app button {
+    background-color: transparent;
+    border: none;
+}
+
+.mail-app .mail-compose-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid rgb(53, 53, 53);
+    width: 50%;
+    border-radius: 3em;
+    transition: all .4s;
+}
+
+.mail-app .mail-compose-btn:hover {
+    width: 100%;
+    border-radius: 3em;
+}
+
+.mail-app .mail-compose-btn>* {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: rgb(65, 65, 65);
+    text-decoration: none;
+    padding: 5px;
+    font-size: 1.1rem;
+}
+
+
+/* MAIL APP MEDIA */
+
+@media (max-width: 700px) {
+    .mail-list {
+        flex-grow: 1;
+    }
+    .mail-preview .body-to-show {
+        display: none !important;
+    }
+    .mail-app .mail-side-bar-container {
+        min-width: 30px;
+    }
+    .mail-app .mail-compose-btn {
+        height: 40px;
+        width: 40px;
+    }
+    .mail-side-bar .side-bar-category>.capitalize {
+        display: none;
+    }
+    .mail-side-bar .side-bar-category>.main-counter {
+        left: 32px;
+    }
+    .progress-bar {
+        transform: rotate(270deg);
+    }
+}

@@ -1,0 +1,42 @@
+.user-msg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    text-align: center;
+    left: 40%;
+    width: 200px;
+    height: 120px;
+    background-color: white;
+    border: 1px solid #0092ff;
+    z-index: 200;
+    border-radius: 4px;
+    font-family: google-sans;
+}
+
+.user-msg>button {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    top: 3px;
+    left: 3px;
+    color: #0092ff
+}
+
+.user-msg>button:hover {
+    color: red;
+}
+
+.user-msg>p {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.user-msg img {
+    width: 170px;
+    height: 50px;
+    object-fit: cover;
+}

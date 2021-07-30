@@ -1,0 +1,52 @@
+@import url(./helpers.css);
+@import url(./app-header.css);
+@import url(./search-bar.css);
+@import url(./app-nav.css);
+@import url(./home-page.css);
+@import url(./about-page.css);
+@import url(./apps/mail/mail-style.css);
+@import url(./apps/keep/keep-style.css);
+@import url(../lib/animate.css);
+@import url(./user-msg.css);
+
+/*  */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: google-sans;
+    src: url(../fonts/ProductSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: google-sans-bold;
+    src: url(../fonts/ProductSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: google-sans-light;
+    src: url(../fonts/ProductSans-Light.ttf);
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: roboto-bold;
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: awsome;
+    src: url(../fonts/fa-brands-400.ttf);
+}

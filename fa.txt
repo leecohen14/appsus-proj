@@ -1,0 +1,43 @@
+close - <i class="fas fa-times"></i>
+
+user - <i class="fas fa-user-circle"></i>
+
+delete - <i class="fas fa-trash-alt"></i>
+
+share - <i class="fas fa-share-square"></i>
+
+reply - <i class="fas fa-reply"></i>
+
+inbox - <i class="fas fa-inbox"></i>
+
+send - <i class="fas fa-paper-plane"></i>
+
+star - <i class="fas fa-star"></i>
+
+archive - <i class="fas fa-archive"></i>
+
+sent - <i class="fas fa-paper-plane"></i>
+
+drafts - <i class="fas fa-pencil-ruler"></i>
+
+expand - <i class="fas fa-expand"></i>
+
+all - <i class="fas fa-mail-bulk"></i>
+
+todo- <i class="fas fa-list"></i>
+
+save - <i class="fas fa-save"></i>
+
+youtube - <i class="fab fa-youtube"></i>
+
+photo - <i class="fas fa-image"></i>
+
+note - <i class="far fa-sticky-note"></i>
+
+edit - <i class="fas fa-edit"></i>
+
+check-circle-empty<i class="far fa-circle"></i>
+check-circle with V<i class="far fa-check-circle"></i>
+
+
+

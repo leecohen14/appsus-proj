@@ -1,0 +1,77 @@
+.keep-side-bar {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 20px;
+    margin-top: 3px;
+    position: absolute;
+    transition: all .4s;
+    width: 60px;
+    z-index: 10;
+}
+
+.keep-side-bar:hover {
+    width: 150px;
+    background-color: #fbfbfbe8;
+}
+
+.keep-app .side-bar-icons {
+    margin-right: 10px;
+    z-index: 10;
+}
+
+.keep-app .side-bar-category {
+    display: flex;
+    align-items: center;
+}
+
+.keep-app .side-bar-category:hover *:not(i) {
+    color: white;
+}
+
+.keep-side-bar>* {
+    border-radius: 0 3em 3em 0;
+    padding: 5px;
+    transition: all .4s;
+}
+
+.keep-side-bar>*:hover {
+    cursor: pointer;
+    background-color: #0092ff;
+    color: white;
+}
+
+.fa-circle.general {
+    color: rgb(255, 255, 136)
+}
+
+.fa-circle.work {
+    color: rgb(255, 136, 136)
+}
+
+.fa-circle.cars {
+    color: rgb(255, 204, 136)
+}
+
+.fa-circle.insurance {
+    color: rgb(204, 255, 153)
+}
+
+.fa-circle.health {
+    color: rgb(170, 255, 238)
+}
+
+.fa-circle.family {
+    color: rgb(136, 187, 255)
+}
+
+.fa-circle.diet {
+    color: rgb(255, 255, 255);
+    border: 1px solid lightgrey;
+    border-radius: 50%;
+}
+
+.animate__animated.animate__backInLeft,
+.animate__animated.animate__backOutLeft {
+    --animate-duration: .3s;
+}

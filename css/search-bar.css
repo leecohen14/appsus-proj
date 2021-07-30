@@ -1,0 +1,28 @@
+.search-bar {
+    background-color: #f1f3f4;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    position: relative;
+    width: 450px;
+    height: 35px;
+}
+
+.search-bar>* {
+    background-color: #f1f3f4;
+    border: none;
+    height: 100%;
+}
+
+.search-bar>input {
+    padding: 10px 20px;
+    max-width: 500px;
+    outline: none;
+}
+
+.search-bar>img {
+    position: absolute;
+    object-fit: contain;
+    height: 40%;
+    top: 10px;
+    right: 5px;
+}

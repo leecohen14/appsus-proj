@@ -1,0 +1,50 @@
+.keep-app * {
+    color: #202124;
+}
+
+.keep-app {
+    display: flex;
+    width: 100%;
+    font-family: google-sans;
+}
+
+.keep-app i,
+h2,
+p {
+    color: #1F1F1F;
+}
+
+.keep-app>main {
+    width: 100%;
+    margin-left: 50px;
+}
+
+.keep-app i {
+    font-size: 1.5rem;
+}
+
+.keep-app button {
+    background-color: transparent;
+    border: none;
+}
+
+@media (min-width: 625px) {
+    .note-list {
+        column-count: 2 !important;
+    }
+}
+
+@media (max-width: 625px) {
+    .note-list {
+        column-count: 1 !important;
+    }
+    .search-bar>input {
+        width: 120px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .note-list {
+        column-count: 3 !important;
+    }
+}
